@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Genetal Style */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+p, a{
+    font-family: 'Nunito', sans-serif;
+}
+
+.one{
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-left{
+    flex-basis: 50%;
+}
+
+.col-right{
+    flex-basis: 50%;
+}
+
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 100px;
+    padding-left: 20px;
+    border-left: 5px solid red;
+    font-weight: 900;
+}
+.different-text{
+    color: red;
+}
+
+.one p{
+    color: gray;
+    line-height: 26px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+a{
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border-radius: 3px;
+}
+
+img{
+    width: 90%;
+}
+/* Section 1 END */
+
+.two{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.two h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.sec-two-row {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec-two-col1 {
+    background-color: #F4ECF7;
+    flex-basis: 31%;
+    padding: 50px;
+}
+.sec-two-col2 {
+    background-color: #FEF9E7;
+    flex-basis: 31%;
+    padding: 50px;
+}
+.sec-two-col3 {
+    background-color: #E9F7EF;
+    flex-basis: 31%;
+    padding: 50px;
+}
+
+.two i{
+    font-size: 50px;
+    color: red;
+}
+
+/* Section 2 END */
+
+.three{
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
